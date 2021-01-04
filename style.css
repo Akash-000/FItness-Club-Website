@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0px;
+	scroll-behavior: inherit;
+
+}
+::-webkit-scrollbar{
+	width: 0px;
+}
+::-webkit-scrollbar-track-piece{
+	background-color: transparent;
+	-webkit-border-radius:6px;
+}
+body{
+	background-image: url("pictures/image1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+.main-banner{
+	margin: 0 auto;
+	width: 1960px;
+	height: 1000px;
+	background-color: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.main-banner .imgban{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+
+}
+.main-banner #imgban3{
+	background-image: url("pictures/middle2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.main-banner #imgban2{
+	background-image: url("pictures/gallery3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.main-banner #imgban1{
+	background-image: url("pictures/training.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.imgbanbtn{
+	width: 100px;
+	height: 100px;
+	background-color: transparent;
+	border-radius: 60px;
+	position: absolute;
+	top: 460px;
+	z-index: 2000;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.imgbanbtn:hover{
+	opacity: 0.3;
+}
+ .imgbanbtn-prev {
+ 	left: 15px;
+ 	background-image: url("pictures/right arrow1.jpg");
+ 	background-size: 100%;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	border-radius: 70px;
+ }
+
+ .imgbanbtn-next {
+ 	right: 100px;
+ 	background-image: url("pictures/right arrow.png");
+ 	background-size: 100%;
+ 	border-radius: 70px;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ }
+ .main-banner .imgban-box h2{
+ 	font-family: Agency FB;
+ 	font-size: 100px;
+ 	color: white;
+ }
+ .main-banner .imgban-box p{
+ 	padding: 10px;
+ 	font-family: Agency FB;
+ 	font-size: 40px;
+ 	color: white;
+ }
+ .main-banner #imgban3 .imgban-box{
+ 	padding-top: 220px;
+ 	padding-left: 100px;
+ }
+ 
+ .main-banner #imgban2 .imgban-box{
+ 	padding-top: 120px;
+ 	padding-right: 1500px;
+ 	float: right;
+ 	text-align: right;
+ }
+ .main-banner #imgban1 .imgban-box{
+ 	padding-top: 700px;
+ 	padding-left: -900px;
+ 	position: absolute;
+ 	left: 100px;
+
+ }
+
+
+
+
+
+
+
+
+
+ .main-banner1{
+ 	margin: 0 auto;
+ 	width: 500px;
+ 	height: 400px;
+ 	background-color: black;
+ 	 	overflow: unset;
+ 	position: relative;
+ }
+.main-banner1 .imgban1{
+	width:500px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+
+	transition: all ease-in-out 5000ms;
+	-webkit-transition: all ease-in-out 1000ms;
+
+}
+
+
+
+ .main-banner1 #imgban51{
+ 	background-image: url("pictures/partner5,.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+
+ }
+
+.main-banner1 #imgban41{
+ 	background-image: url("pictures/partner4.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	
+ }
+ .main-banner1 #imgban31{
+ 	background-image: url("pictures/partner3,.png");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	
+ }
+ .main-banner1 #imgban21{
+ 	background-image: url("pictures/partner2.jpeg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	
+ }
+ .main-banner1 #imgban11{
+ 	background-image: url("pictures/partner1.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

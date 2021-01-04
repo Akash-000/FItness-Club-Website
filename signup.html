@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>VSR</title>
+<style>
+body
+{
+background-image:url(vsr1.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+td
+{
+padding:px;
+font-size:px;
+color:#D3D3D3;font family:cursive;
+}
+#a
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+#a
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+#b
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+#c
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:cursive;
+border-radius:30px;
+}
+#d
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+#e
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+#f
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#D3D3D3;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+#l
+{
+width:100%;
+padding:10px;
+font_size:20px;
+color:#000000;
+font-family:PERPETUA TITLING MT;
+border-radius:30px;
+}
+select,textarea
+{
+padding:10px;
+border-radius:20px;
+background-color:#D3D3D3;
+font-size:20px;
+font-family:PERPETUA TITLING MT;
+width:100%;
+}
+input[type=submit]
+{
+padding:10px;
+border-radius:30px;
+background-color:#A77A1C;
+font-size:30px;
+font-family:PERPETUA TITLING MT;
+width:30%;
+}
+</style></head>
+<body>
+<form>
+<table width="50%">
+<tr>
+<td>ENTER YOUR NAME:</td>
+<td><input type="text"name="ENTER YOUR NAME"placeholder="TYPE YOUR NAME"id="a"></td>
+</tr>
+<script>
+if(a.value=="")
+{
+alert.(enter valid name)
+return false;
+}
+else
+{
+return true;
+}
+</script>
+<tr>
+<td>ENTER YOUR MOBILE NUMBER:</td>
+<td><input type="number"name="ENTER YOUR MOBILE NUMBER"placeholder="TYPE YOUR MOBILE NUMBER"id="b"maxlength="10"></td>
+</tr>
+<script>
+b=document.getElementById("b").value
+if(b==""||b.length!=10||is NaN(b))
+{
+alert.("please provide valid phone number");
+document.getElementById("b").focus();
+return false;}</script>
+<tr>
+<td>ENTER YOUR E-MAIL:</td>
+<td><input number="email"name="ENTER YOUR E-MAIL"placeholder="TYPE YOUR E-MAIL"id="c"onkeyup="changeCase()">
+<script>
+function changeCase()
+{
+b=document.getElementById("c").value
+c=b.toLowerCase()
+document.getElementById("c").value=c
+}
+x=document.getElementById("c").value
+atpos=x.indexOf("@");
+dotpos=x.indexOf)(".");
+dotposLast=x.lastIndexOf(".");
+if(x==""||atpos==0||dotpos<=atpos+2||dotposLast+2>=x.length)
+{alert.("please provid correct email");
+document.getElementById("c").focus();
+return false;}</script></td>
+</tr>
+<tr>
+<td>CREATE YOUR USERNAME:</td>
+<td><input type="text"name="CREATE YOUR USERNAME"placeholder="CREATE YOUR USERNAME"id="a">
+</td>
+</tr>
+<tr>
+<td>CREATE YOUR PASSWORD:</td>
+<td><input type="password"name="PASSWORD"placeholder="CREATE YOUR PASSWORD"id="d"maxlength="9"></td>
+</tr>
+<tr>
+<td> RE-ENTER  PASSWORD:</td>
+<td><input type="password"name="PASSWORD"placeholder="RE-TYPE YOUR PASSWORD"id="e"maxlength="9"></td>
+</tr>
+if(d==""||d!=e)
+{
+alert.("Please enter same password");
+document.getElementById("d").focus();
+return false;
+}
+</script>
+<tr>
+<td>MEMBERSHIP PLANS</td>
+<td>
+<select name="MEMBERSHIPS">
+<option value="1">6-MONTHS MEMBERSHIP</option>
+<option value="2">1-YEAR MEMBERSHIP</option>
+<option value="3">2-YEAR MEMBERSHIP</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>ENTER YOUR AGE:</td>
+<td><input type="number"name="number"placeholder="ENTER YOUR AGE"id="f"maxlength="2"></td>
+</tr>
+<tr>
+<td><input type="button"value="SIGN UP"id="l"onclick=abc()>
+</td></tr>
+</body></html>
+</form></table></body></html>

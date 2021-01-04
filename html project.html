@@ -1,0 +1,548 @@
+<!doctype html>
+<html>
+<head>
+<title>BMX Club</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+#myvid{
+	margin: 0;
+	padding: 0;
+	background-attachment: fixed;	
+}
+#t{
+	color: white;
+}
+#t:hover
+{
+	color: red;
+}
+.grid-container{
+display: grid;
+grid-template-areas:
+'top top top top top topp'
+'middle middle middle middle middle middle'
+'low low low low low low'
+'1 1 1 2 2 2'
+'3 3 3 3 3 3'
+'4 4 4 5 5 5 '
+'footer footer footer footer footer footer';
+position: absolute;
+top: 0;
+height: 1500px;
+width: 1960px;
+}
+#end{
+	filter: brightness(10);
+	filter: blur(6px);
+	position: relative;
+	top: 600px;
+	left: 50px;
+}
+.grid-container>div{
+color:white;
+font-family:cursive;
+text-align:center;
+font-size: 30px;
+color: white;
+}
+
+.item3{grid-area:middle;
+	font-size: 20px;
+	padding: 30px;
+	font-style: Agency FB;
+	color: #222;
+	align:right;
+}
+.item2{
+	grid-area:topp;
+	width: 100%;
+	position: relative;
+	left: -150px;
+
+}
+.item4{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	font-size: 250px; 
+	color: blue;
+}#item7{
+	position: relative;
+	top: -100px;
+}
+.item7{
+	
+	grid-area:footer;
+	width: 100%;
+	position: relative;
+	top: 700px;
+	height: 500px;
+
+}
+.item8{background-color: transparent;
+	height: 100px;
+}
+.item9{
+	height: 6 	00px;
+	width: 1980px;
+	position: relative;
+	top: 400px;
+	background-color: black;
+
+}
+#partner{
+	color: #00bfff;
+	font-family: Agency FB;
+	font-size: 100px;
+	letter-spacing: 8px;
+	word-spacing: 20px;
+}
+#b{
+	color: white;
+	
+}
+#b:hover{
+	color: gray;
+}
+#sign{outline: 0;
+	font-size: 30px;
+	font-family: Agency FB;
+	color: #ff1000;
+	background-color: transparent;
+	opacity: 0.4;
+	padding:30px;
+	border-spacing: 50px;
+	position: relative;
+	bottom: 200px;
+	border-radius: 40px;
+	border-color:#ff1000;
+	border-width: 4px;
+	font-weight: bold;
+}
+#sign:hover{
+	color: white;
+	background-color: #fd0e35;
+	opacity: 1;
+}
+#about{
+	color: white;
+	filter:black;
+	-webkit-filter:grayscale(1);
+	opacity: 1;
+	display: block;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+#aa{color: white;
+font-weight: initial;
+}
+#aa:hover{
+	color: gray;
+}
+#about:hover{
+		filter: none;
+	-webkit-filter:grayscale(0);
+}
+</style>
+</head>
+<body>
+	
+<div class="container">
+<video muted autoplay loop id="myvid">
+<source src="pictures/cinematics.mp4">
+</video>
+</div>
+<div class="grid-container">
+<div class="item1">
+<img src="pictures/spartan.jpg" height="220px" width="220px" style="border-radius: 50px; padding: 20px;">
+</div>
+<div class="item2">
+<a href="https://www.facebook.com/profile.php?id=100008303402728" target="-_blank"> <img align ="right" src="pictures/facebook.png" style="border-radius: 40px" height="70px" width="70"></a>
+<a href="https://www.instagram.com/_akash__chauhan/" target="-_blank"> <img align ="right" src="pictures/instagram logo.png" style="border-radius: 20px" height="70px" width="70px "></a>
+</div>
+<div class="item3">
+<div style="background-color:rgba(0,0,0,0.5);margin-top:30px;padding-bottom:15px;">
+<a href="about us.html" target="-_blank" id="b" style="font-family: Agency FB">ABOUT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="fitness club.html" target="-_blank" id="b"style="font-family: Agency FB">MEMBERSHIP</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="fitness club.html" target="-_blank" id="b" style="font-family: Agency FB">INTERIOR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="contact.html" target="-_blank" id="b" style="font-family: Agency FB">CONTACT </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="trainers.html" target="-_blank" id="b" style="font-family: Agency FB">TRAINERS </a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</div> 
+<div class="item4" style="font-style:Agency FB; ">
+<span style="font-family: Agency FB">BMX CLUB</span><br>
+<a href="signup.html" target="_blank"><button id="sign"><b>Join now</b></button></a>&nbsp;&nbsp;<a href="login1.html" target="_blank"><button id="sign"><b>ALREADY A MEMBER ?</b></button></a>
+</div><br>
+<div class="item5">
+<img src="pictures/top1.jpg" style="height: 700px; width:1346px; position: relative;top: 700px; right: 446px;" id="about" >
+<h1 style="color: white; position: relative;top: 350px;right: 500px; font-family: Agency FB;" id="t"><a href="about us.html" target="_blank" style="color: white;">About us</h1></a>
+</div>
+<div class="item5">
+<img src="pictures/top2.png" style="height: 700px; width: 990px; position: relative;top: -75px;right:-900px;" id="about">
+<h1 style="position: relative;top: -500px; right: -500px; font-family: Agency FB;" id="about"><a href="fitness club.html" target="_blank" style="color: white;">MEMBERSHIP</h1></a>
+</div>
+<img src="pictures/spartan.jpg" style="height: 250px; width: 250px;border-radius: 150px; position: relative;left: -100px;">
+
+<div class="text" style="font-family: Agency FB; font-size: 40px; position: relative;left: -100px; "><h3 style="color: gray;">We promise to:</h3><br><h5 style="font-family: Agency FB;font-weight: 900px; transform: scaleX(0.8);">HELP YOU FIND YOUR STARTING POINT &nbsp; &nbsp; |  &nbsp; &nbsp; BUILD YOUR PATH TO SUCCESS  &nbsp; &nbsp; |  &nbsp; &nbsp; SHOW YOU THE ROPES<br><br> BE WITH YOU EVERY STEP OF THE WAY  &nbsp; &nbsp; |   &nbsp; &nbsp;GUARANTEE SATISFACTION</h5><br><br></div>
+<div class="main-banner" id="main-banner">
+<div class="imgbanbtn imgbanbtn-prev" id="imgbanbtn-prev"></div>
+<div class="imgban" id="imgban3">
+	<div class="imgban-box">
+<h2 style="transform: scaleX(0.7); font-weight: 100px;letter-spacing: 10px;">TRAIN &nbsp; LIKE &nbsp; A &nbsp; CHAMPION</h2>
+<p>WORK HARD AND TRY HARDER....</p>
+	</div>
+</div>
+<div class="imgban" id="imgban2">
+	<div class="imgban-box">
+<h3 style="font-family: Agency FB;">SWEAT <BR>+ SACRIFICE <BR> = <BR> </h3>
+<h2>SUCCESS</h2>
+	</div>
+</div>
+<div class="imgban" id="imgban1">
+	<div class="imgban-box">
+<h2 style="transform: scaleX(0.7);">TRAIN &nbsp; UNTIL &nbsp; IT &nbsp;HURTS</h2>
+<p>THEN TRAIN SOME MORE....</p>
+	</div>
+</div>
+<div class="imgbanbtn imgbanbtn-next" id="imgbanbtn-next"></div>
+</div>
+<img src="pictures/spartan.jpg" style="height: 250px; width: 250px;border-radius: 150px;position: relative; top: 200px; left: -100px;">
+<div class="text" style="font-family: Agency FB; position: relative;top: 230px; left: -100px; letter-spacing: 5px;"><h3 style="color:white;font-weight: 900px; transform: scaleX(0.7); word-spacing: 5px;color: #d3d3d3;">"BMX is a passion for me . I want people to train like they should.we have pulled together the best training coaches,medical teams and the equipments<br> in the bussiness and brought this gym to the street of Roundabout . Offering state-of-the-art training facilities for anyone who wants to join."</h3>
+<div class="news" id="news">
+<img src="pictures/spartan.jpg" style="height: 250px; width: 250px;border-radius: 150px;position: relative; top: 200px;">
+<div class="text" style="font-family: Agency FB; position: relative;top: 230px; left: 50px; letter-spacing: 5px;">
+<h1  style="font-family: Agency FB; position: relative;right: 40px; font-size: 150px;color:#00bfff;">LATEST NEWS</h1>
+
+<h3 style="color:#c0c0c0;font-weight: 900px; transform: scaleX(0.7); letter-spacing: 7px; word-spacing: 5px;">"The Infamous challenge is returning W/C 16th May and to help you prepeare , we are running a 6 week endurance programme. 10 classes for just 120$.<br>(9X Endurance climb and 1x Vertical climb)<br>Book only through reception now!"</h3>
+<a href="fitness club.html" target="_blank" style="position: relative;top: 300px;right: 55px;"><button id="sign"><b>Register for the event</b></button></a></div>
+
+
+<div class="item9" id="item9">
+<h1 id="partner">OUR PARTNERS</h1><br><br>
+<div class="main-banner1" id="main-banner1">
+<div class="imgban1" id="imgban51">
+
+</div>
+<div class="imgban1" id="imgban41">
+
+</div>
+<div class="imgban1" id="imgban31">
+
+</div>
+<div class="imgban1" id="imgban21">
+
+</div>
+<div class="imgban1" id="imgban11">
+
+	</div>	
+</div>
+
+
+</div>
+</div>
+<img src="pictures/4'.jpg" height="700px" width="1900px" id="end">
+<div class="item7" id="item7"><center>
+
+	<img src="pictures/spartan.jpg" style="border-radius: 200px; height: 250px;width: 250px;position: relative;top: -200px;" >
+	<h3 style="font-family: Agency FB; position: relative;top: -100px;font-size: 35px; letter-spacing: 5px; word-spacing: 5px; font-weight: 100;"><center>Defence Roundabout | Dubai Interchange 1 SZR | Entrance Falcon Roundabout<br><br>
+	Member Only Club | info@bmxclub.com | 7982944708 <br><br>
+	Legal | Membership terms | Privacy | Recruitment</center>
+
+</center>
+<div class="item8"><center>
+
+<div style="background-color:rgba(0,0,0,0.5);margin-top:30px;padding-bottom:15px;color: #c0c0c0;">
+	<span style="font-size: 35px; letter-spacing: 4px; word-spacing: 5px;font-weight: 100;">&copy; BMX Club Dubai . All Right Reserved.</span>
+
+
+
+</center>
+</div>
+
+
+
+
+
+
+<script>
+	var bannerStatus = 1;
+	var bannerTimer = 2000;
+
+
+	window.onload = function(){
+		bannerLoop();
+	}
+
+	var startBannerLoop = setInterval(function(){
+		bannerLoop();
+	}, bannerTimer);
+
+	document.getElementById("main-banner").onmouseenter = function(){
+		clearInterval(startBannerLoop);
+	}
+	document.getElementById("main-banner").onmouseleave = function(){
+		 startBannerLoop = setInterval(function(){
+		bannerLoop();
+	}, bannerTimer);
+	}
+
+	document.getElementById("imgbanbtn-prev").onclick = function(){
+		if(bannerStatus ===1){
+			bannerStatus =2;
+		}
+		else if(bannerStatus =2){
+			bannerStatus =3;
+		}
+		if(bannerStatus =3){
+			bannerStatus =1;
+		}
+		bannerLoop();
+	}
+
+
+	document.getElementById("imgbanbtn-next").onclick = function(){
+		bannerLoop();
+	}
+
+
+	function bannerLoop(){
+		if (bannerStatus === 1) {
+			document.getElementById("imgban2").style.opacity = "0";
+			setTimeout(function(){
+
+			document.getElementById("imgban1").style.right = "0px";
+			document.getElementById("imgban1").style.zIndex = "1000";
+			document.getElementById("imgban2").style.right = "-1960px";
+			document.getElementById("imgban2").style.zIndex = "1500";
+			document.getElementById("imgban3").style.right = "1960px";
+			document.getElementById("imgban3").style.zIndex = "500";
+			
+		}, 500);
+			setTimeout(function(){
+			document.getElementById("imgban2").style.opacity = "1";
+			}, 1000);
+			bannerStatus = 2;
+		}
+		else if (bannerStatus === 2) {
+			document.getElementById("imgban3").style.opacity = "0";
+			setTimeout(function(){
+
+			document.getElementById("imgban2").style.right = "0px";
+			document.getElementById("imgban2").style.zIndex = "1000";
+			document.getElementById("imgban3").style.right = "-1960px";
+			document.getElementById("imgban3").style.zIndex = "1500";
+			document.getElementById("imgban1").style.right = "1960px";
+			document.getElementById("imgban1").style.zIndex = "500";
+			
+		}, 500);
+			setTimeout(function(){
+			document.getElementById("imgban3").style.opacity = "1";
+			}, 1000);
+			bannerStatus = 3;
+		}
+		else if (bannerStatus === 3) {
+			document.getElementById("imgban1").style.opacity = "0";
+			setTimeout(function(){
+
+			document.getElementById("imgban3").style.right = "0px";
+			document.getElementById("imgban3").style.zIndex = "1000";
+			document.getElementById("imgban1").style.right = "-1960px";
+			document.getElementById("imgban1").style.zIndex = "1500";
+			document.getElementById("imgban2").style.right = "1960px";
+			document.getElementById("imgban2").style.zIndex = "500";
+			
+		}, 500);
+			setTimeout(function(){
+			document.getElementById("imgban1").style.opacity = "1";
+			}, 1000);
+			bannerStatus = 1;
+		}
+	}
+	
+
+
+
+
+
+
+
+
+
+
+var bannerStatus1 =1;
+var bannerTimer1 = 2000;
+	
+	window.onload = function(){
+		bannerloop1();
+	}
+
+	var startBannerLoop1 = setInterval(function(){
+		bannerloop1();
+	}, bannerTimer1);
+
+function bannerloop1(){
+	if(bannerStatus1 == 1){
+		document.getElementById("imgban21").style.opacity="1";
+		//document.getElementById("imgban31").style.opacity="0.1";
+
+		setTimeout(function(){
+
+		document.getElementById("imgban11").style.right="0px";
+		document.getElementById("imgban11").style.zIndex="1000";
+
+		document.getElementById("imgban21").style.right="-500px";
+		document.getElementById("imgban21").style.zIndex="1250";
+
+		document.getElementById("imgban31").style.right="-1000px";
+		document.getElementById("imgban31").style.zIndex="1500";
+
+		document.getElementById("imgban41").style.right="500px";
+		document.getElementById("imgban41").style.zIndex="750";
+
+		document.getElementById("imgban51").style.right="1000px";
+		document.getElementById("imgban51").style.zIndex="500";
+			
+		}, 500);
+
+		setTimeout(function(){
+		document.getElementById("imgban21").style.opacity="0.5";
+		//document.getElementById("imgban31").style.opacity="1";
+		} ,1000);
+		bannerStatus1 = 2;
+	}
+
+
+	else if(bannerStatus1 == 2){
+		//document.getElementById("imgban21").style.opacity="0.1";
+		document.getElementById("imgban31").style.opacity="1";
+
+		setTimeout(function(){
+
+		document.getElementById("imgban21").style.right="0px";
+		document.getElementById("imgban21").style.zIndex="1000";
+
+		document.getElementById("imgban31").style.right="-500px";
+		document.getElementById("imgban31").style.zIndex="1250";
+
+		document.getElementById("imgban41").style.right="-1000px";
+		document.getElementById("imgban41").style.zIndex="1500";
+
+		document.getElementById("imgban51").style.right="500px";
+		document.getElementById("imgban51").style.zIndex="750";
+
+		document.getElementById("imgban11").style.right="1000px";
+		document.getElementById("imgban11").style.zIndex="500";
+			
+		}, 500);
+
+		setTimeout(function(){
+		//document.getElementById("imgban21").style.opacity="1";
+		document.getElementById("imgban31").style.opacity="0.5";
+		} ,1000);
+		bannerStatus1 = 3;
+	}
+
+
+	else if(bannerStatus1 == 3){
+		document.getElementById("imgban11").style.opacity="1";
+		//document.getElementById("imgban31").style.opacity="0.7";
+
+		setTimeout(function(){
+
+		document.getElementById("imgban31").style.right="0px";
+		document.getElementById("imgban31").style.zIndex="1000";
+
+		document.getElementById("imgban41").style.right="-500px";
+		document.getElementById("imgban41").style.zIndex="1250";
+
+		document.getElementById("imgban51").style.right="-1000px";
+		document.getElementById("imgban51").style.zIndex="1500";
+
+		document.getElementById("imgban11").style.right="500px";
+		document.getElementById("imgban11").style.zIndex="750";
+
+		document.getElementById("imgban21").style.right="1000px";
+		document.getElementById("imgban21").style.zIndex="500";
+			
+		}, 500);
+
+		setTimeout(function(){
+		document.getElementById("imgban11").style.opacity="0.5";
+		//document.getElementById("imgban31").style.opacity="1";
+		} ,1000);
+		bannerStatus1 = 4;
+	}
+
+	else if(bannerStatus1 == 4){
+		document.getElementById("imgban41").style.opacity="1";
+		//document.getElementById("imgban31").style.opacity="0.7";
+
+		setTimeout(function(){
+
+		document.getElementById("imgban41").style.right="0px";
+		document.getElementById("imgban41").style.zIndex="1000";
+
+		document.getElementById("imgban51").style.right="-500px";
+		document.getElementById("imgban51").style.zIndex="1250";
+
+		document.getElementById("imgban11").style.right="-1000px";
+		document.getElementById("imgban11").style.zIndex="1500";
+
+		document.getElementById("imgban21").style.right="500px";
+		document.getElementById("imgban21").style.zIndex="750";
+
+		document.getElementById("imgban31").style.right="1000px";
+		document.getElementById("imgban31").style.zIndex="500";
+			
+		}, 500);
+
+		setTimeout(function(){
+		document.getElementById("imgban41").style.opacity="0.5";
+		//document.getElementById("imgban31").style.opacity="1";
+		} ,1000);
+		bannerStatus1 = 5;
+	}
+
+
+	else if(bannerStatus1 == 5){
+		document.getElementById("imgban51").style.opacity="1";
+		//document.getElementById("imgban31").style.opacity="0.7";
+
+		setTimeout(function(){
+
+		document.getElementById("imgban51").style.right="0px";
+		document.getElementById("imgban51").style.zIndex="1000";
+
+		document.getElementById("imgban11").style.right="-500px";
+		document.getElementById("imgban11").style.zIndex="1250";
+
+		document.getElementById("imgban21").style.right="-1000px";
+		document.getElementById("imgban21").style.zIndex="1500";
+
+		document.getElementById("imgban31").style.right="500px";
+		document.getElementById("imgban31").style.zIndex="750";
+
+		document.getElementById("imgban41").style.right="1000px";
+		document.getElementById("imgban41").style.zIndex="500";
+			
+		}, 500);
+
+		setTimeout(function(){
+		document.getElementById("imgban51").style.opacity="0.5";
+		//document.getElementById("imgban31").style.opacity="1";
+		} ,1000);
+		bannerStatus1 = 1;
+	}
+	
+}
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
